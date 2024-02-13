@@ -2,7 +2,7 @@
   margin-left: 20px;
   margin-right: 20px;
 
-  width: 600px;
+  width: 500px;
   height: 400px;
 
   display: flex;
@@ -14,14 +14,16 @@
   margin-top: 15px;
   font-size: 20px;
 }
-
-.big-card__description > p {
+.big-card__description {
   margin-top: 10px;
+}
+
+.big-card__description > p > a {
   color: gray;
   text-align: justify;
 }
 .big-card__photo > img {
   width: 100%;
-  min-width: 600px;
+  min-width: 500px;
   height: 200px;
 }
